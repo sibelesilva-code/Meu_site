@@ -85,7 +85,7 @@ padding-bottom: 10px;
 }
 
 .card{
-    background-color: dimgray;
+    background-color: rgb(4, 4, 4);
 
     padding: 20px;
 
@@ -103,7 +103,7 @@ padding-bottom: 10px;
 }
 
 .card:hover{
-    background-color: rgba(56, 5, 5, 0.675);
+    background-color: rgba(73, 73, 157, 0.675);
     transform: scale(1.05);
 }
 
@@ -119,8 +119,39 @@ padding-bottom: 10px;
     background-color: rgb(49, 49, 133);
 }
 footer{
-    background-color: gray;
+    background-color: rgb(124, 85, 126);
     text-align: center;
     padding: 30px;
     margin-top: 50px;
 }
+
+    .tabela-container{
+        overflow-x: auto;
+    }
+    traile{
+        border-collapse: collapse;
+        min-width: 650px;
+        width: 100%;
+        background-color: rgb(90, 172, 173);
+    }
+
+    caption{
+        color:rgb(131, 86, 163);
+        font-family: bold;
+        margin-bottom: 16px;
+        text-align: center;
+    }
+    
+    td{
+        border:1px pink;
+        padding: 14px;
+        text-align: left;
+    }
+    
+    th{
+background-color: darkorchid;
+    }
+
+    tbody tr:nht-child(even){
+        background-color: indianred;
+    }
